@@ -12,7 +12,7 @@ class Main
     case choice
     when 1
       puts 'Enter git command'.colorize(:green)
-      Git.puts_git(gets.strip)
+      Git.git_cmd(gets.strip)
     when 2
       exit
     else
