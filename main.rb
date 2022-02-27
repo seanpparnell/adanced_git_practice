@@ -1,3 +1,4 @@
+
 def self.menu
   puts 'MAIN MENU'.colorize(:yellow)
   puts '1: Enter git command'.colorize(:yellow)
@@ -18,3 +19,5 @@ def self.menu
 
   menu
 end
+
+
